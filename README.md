@@ -1,2 +1,2 @@
-# Traffic-Sign-Classifiaction
-Using vgg16 and transfer learning to classify 43 different traffic signs with Pytorch
+# Image-Classification
+Classifying images from CIFAR10 dataset in Pytorch
