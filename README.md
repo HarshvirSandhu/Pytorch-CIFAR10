@@ -1,2 +1,3 @@
 # Image-Classification
-Classifying images from CIFAR10 dataset in Pytorch
+1. Classifying images from CIFAR10 dataset in Pytorch
+2. Classifying images from Traffic Signs dataset in Pytorch
