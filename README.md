@@ -12,4 +12,5 @@ Implementation of Neural Style Transfer Algorithm.
 
 # GANs
 
-<img src="https://user-images.githubusercontent.com/75773763/162561752-ff981917-5bf8-4e52-a706-2194017ebcb1.jpg" width=140% height=140%>
+<img src="https://user-images.githubusercontent.com/75773763/162561752-ff981917-5bf8-4e52-a706-2194017ebcb1.jpg" width=100% height=100%>
+<img src="https://user-images.githubusercontent.com/75773763/181719312-3b60537f-85c4-4889-9b80-fae1d03767cf.jpg" width=140% height=90%>
