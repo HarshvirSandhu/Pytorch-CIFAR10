@@ -13,8 +13,9 @@ label.build_vocab(data_set)
 data_load = torchtext.data.BucketIterator(data_set, batch_size=32)
 print(label.vocab.stoi)
 for data in data_load:
+    # data.Text.shape: [len, batch_size], data.Text[i] is not the ith sentence of the batch. BUT data.Text.T[i] is the ith sentence of the batch
     print(data)
-    print(label.vocab.itos[int(data.Label[0].item())])
-    for i in list(data.Text[0]):
+    print(label.vocab.itos[int(data.Label.T[0].item())])
+    for i in list(data.Text.T[0]):
         print(text.vocab.itos[i], end=' ')
     break
