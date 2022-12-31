@@ -31,7 +31,8 @@ class Model(torch.nn.Module):
 print(len(text.vocab))
 model = Model(input_dim=len(text.vocab), embed_dim=128, hidden_dim=100, output_dim=2)
 for data in data_load:
+    # data.Text.shape: [len, batch_size], data.Text[i] is not the ith sentence of the batch. BUT data.Text.T[i] is the ith sentence of the batch 
     print(data.Text.shape)
-    print(model(data.Text).shape)
-    print(model(data.Text))
+    print(model(data.Text.T).shape)
+    print(model(data.Text.T))
     break
